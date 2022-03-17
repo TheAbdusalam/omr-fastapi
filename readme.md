@@ -10,9 +10,21 @@ Repository:  https://github.com/abdusalam-mah/omr-fastapi
 
 ### Usage
 #
+1. install these packages first
 
-<!-- API routes -->
+    `pip install fastapi uvicorn numpy opencv-python`
 
+2. after that to start the server run 
+
+    `python server.py`
+3. use PostMan or Axios to send a POST request with an image file like:
+![example image](https://github.com/abdusalam-mah/omr-fastapi/app/temp/images/test-image.png?raw=true)
+
+### To do next
+* add request validation
+* process testing
+* support different scoring types
+* add support for additional paper types
 
 ### License
 #
