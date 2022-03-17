@@ -19,7 +19,7 @@ Repository:  https://github.com/abdusalam-mah/omr-fastapi
     `python server.py`
 
 3. use PostMan or Axios to send a POST request with an image file, get an example image from `app/temp/images/` it looks something like:
-![example image](https://github.com/abdusalam-mah/omr-fastapi/app/temp/images/test-image.png?raw=true)
+![example image](https://github.com/Abdusalam-mah/omr-fastapi/blob/main/app/temp/images/test-image.png)
 
 ### To do next
 * add request validation
