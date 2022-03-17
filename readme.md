@@ -17,7 +17,8 @@ Repository:  https://github.com/abdusalam-mah/omr-fastapi
 2. after that to start the server run 
 
     `python server.py`
-3. use PostMan or Axios to send a POST request with an image file like:
+
+3. use PostMan or Axios to send a POST request with an image file, get an example image from `app/temp/images/` it looks something like:
 ![example image](https://github.com/abdusalam-mah/omr-fastapi/app/temp/images/test-image.png?raw=true)
 
 ### To do next
@@ -25,6 +26,3 @@ Repository:  https://github.com/abdusalam-mah/omr-fastapi
 * process testing
 * support different scoring types
 * add support for additional paper types
-
-### License
-#
