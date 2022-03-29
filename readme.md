@@ -21,8 +21,12 @@ Repository:  https://github.com/abdusalam-mah/omr-fastapi
 3. use PostMan or Axios to send a POST request with an image file, get an example image from `app/temp/images/` it looks something like:
 ![example image](https://github.com/Abdusalam-mah/omr-fastapi/blob/main/app/temp/images/test-image.png)
 
+4. ### scoring methods
+    some scoring methods are available, you can choose from the following:
+    - `score_by_percentage` ( default )
+    - `score_by_weight` ( which defaults it's weight to 1 if not specified )
+
 ### To do next
 * add request validation
 * process testing
-* support different scoring types
 * add support for additional paper types
